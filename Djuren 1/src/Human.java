@@ -26,15 +26,14 @@ public class Human {
 		dogs.add(new Dog(dogNameBox.getText()));
 	}
 	public String getInfo(){
-//		return name + (" äger en hund som heter ") + dog.name;
 		String s = "";
 		if (dog != null) {
 
-			s = getName() + " ager en hund som heter " + dog.name;
+			s = getName() + " äger en hund som heter " + dog.name;
 
 		} else {
 
-			s = getName() + " ager inte en hund ";
+			s = getName() + " äger inte en hund ";
 
 		}
 		return s;
