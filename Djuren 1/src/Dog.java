@@ -6,6 +6,6 @@ public class Dog {
 		this.name=name;
 	}
 	private String getName(){
-		return name;
+		return this.name;
 	}
 }
