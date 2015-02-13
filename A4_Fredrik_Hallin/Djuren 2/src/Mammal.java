@@ -3,10 +3,11 @@ public abstract class Mammal extends Animal{
 
 	private int gestationTime;
 	
-	public void Mammal(String latinName, String gestationTime){
-		
+	public Mammal(String latinName, int gestationTime){
+		super(latinName);
+		this.gestationTime = gestationTime;
 	}
-	public int getGestatationTime(){
+	public int getGestationTime(){
 		return gestationTime;
 	}
 }
