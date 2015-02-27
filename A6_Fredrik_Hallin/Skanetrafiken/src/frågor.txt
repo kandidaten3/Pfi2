@@ -1,0 +1,12 @@
+1. Lund C och Malmö C.
+
+2. ?cmdaction=next&selPointFr=0|80000|0&selPointTo=0|81216|0 &noOf=5
+
+3. Journeys - kapslar in resealternativ
+    >Journey - info om föreslagen resa
+      >RouteLinks - innehåller alla delar i en journey
+        >RouteLink - när tåget åker, priszoner, var man ska gå på och av enligt biljetten
+
+4. <RouteLinks>, under taggen Journey.
+
+5. <p></p>
